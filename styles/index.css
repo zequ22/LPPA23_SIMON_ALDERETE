@@ -1,0 +1,16 @@
+body{
+    background-color: darkslategrey;
+}
+
+.btnRojo{
+    background-color: red;
+}
+.btnCeleste{
+    background-color: cyan;
+}
+.btnVerde{
+    background-color: green;
+}
+.btnAmarillo{
+    background-color: yellow;
+}

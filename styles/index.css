@@ -1,16 +1,57 @@
 body{
     background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vp;
+    margin: 0;
 }
 
+
+.dispositivo{
+    background-color: sienna;
+    display: flex;
+    justify-content:center;
+    border-radius: 90%;
+    border: 5px solid saddlebrown;
+
+}
 .btnRojo{
+    width: 200px;
+    height: 200px;
     background-color: red;
+    border-radius: 60%;
+    margin: 20px;
+    border: 5px solid darkred;
+    cursor: pointer;
 }
 .btnCeleste{
+    width: 200px;
+    height: 200px;
     background-color: cyan;
+    border-radius: 60%;
+    margin: 20px;
+    border: 5px solid darkcyan;
+    cursor: pointer;
 }
 .btnVerde{
+    width: 200px;
+    height: 200px;
     background-color: green;
+    border-radius: 60%;
+    margin: 20px;
+    border: 5px solid darkgreen;
+    cursor: pointer;
 }
 .btnAmarillo{
-    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 60%;
+    margin: 20px;
+    border: 5px solid darkorange;
+    cursor: pointer;
+}
+.btnAmarillo:hover{
+    background-color: darkgoldenrod;
 }

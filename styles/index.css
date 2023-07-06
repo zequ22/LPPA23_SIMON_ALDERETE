@@ -1,57 +1,61 @@
+
 body{
     background-color: darkslategrey;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vp;
+    width: 100vp;
     margin: 0;
 }
 
-
 .dispositivo{
-    background-color: sienna;
+    border-radius: 25%;
+    border: 7px solid black;
+    background-color: black;
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    gap:0.25em;
+}
+.superior, .inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.25em
+}
+.btn{
     border-radius: 90%;
-    border: 5px solid saddlebrown;
-
+    border: 5px solid white;
+    width: 10em;
+    height: 10em;
+    flex-shrink: 1;
 }
-.btnRojo{
-    width: 200px;
-    height: 200px;
+#btnRojo{
+    background-color: darkred;
+}
+#btnRojo:hover{
     background-color: red;
-    border-radius: 60%;
-    margin: 20px;
-    border: 5px solid darkred;
-    cursor: pointer;
 }
-.btnCeleste{
-    width: 200px;
-    height: 200px;
+#btnCeleste{
+    background-color: darkcyan;
+}
+#btnCeleste:hover{
     background-color: cyan;
-    border-radius: 60%;
-    margin: 20px;
-    border: 5px solid darkcyan;
-    cursor: pointer;
 }
-.btnVerde{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    border-radius: 60%;
-    margin: 20px;
-    border: 5px solid darkgreen;
-    cursor: pointer;
+#btnVerde{
+    background-color: darkolivegreen;
 }
-.btnAmarillo{
-    width: 200px;
-    height: 200px;
-    background-color: orange;
-    border-radius: 60%;
-    margin: 20px;
-    border: 5px solid darkorange;
-    cursor: pointer;
+#btnVerde:hover{
+    background-color: lightgreen;
 }
-.btnAmarillo:hover{
+#btnAmarillo{
     background-color: darkgoldenrod;
+}
+#btnAmarillo:hover{
+    background-color: yellow;
+}
+
+@media (min-width: 600px){
+    body{
+        background-color: darkmagenta;
+    }
 }
